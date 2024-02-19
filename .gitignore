@@ -4,6 +4,7 @@
 [Oo]bj/
 [Bb]uild/
 [Ll]ogs/
+[Uu]serSettings/
 
 # VS Code specific ignore
 .vscode/
@@ -26,13 +27,6 @@
 # Windows shortcuts
 *.lnk
 
-# JetBrains Rider
-.idea/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
 # Mono Auto Generated Files
 mono_crash.*
 
@@ -46,28 +40,6 @@ setup.log
 # Windows shortcuts
 *.lnk
 
-# Rider
-.idea/
-*.sln.iml
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
 # JetBrains Rider
 .idea/
 *.suo
@@ -191,31 +163,6 @@ mono_crash.*
 
 # JetBrains Rider
 .idea/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# JetBrains Rider
-.idea/
 
 # User-specific files
 *.suo
@@ -262,6 +209,27 @@ mono_crash.*
 
 # JetBrains Rider
 .idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
 *.suo
 *.user
 *.userosscache
@@ -287,3 +255,4 @@ mono_crash.*
 
 # JetBrains Rider
 .idea/
+!Assets/
