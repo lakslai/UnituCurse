@@ -15,7 +15,7 @@ C:/Users/Савка/MPFPS/UnituCurse
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-59601
+57601
 Successfully changed project path to: C:/Users/Савка/MPFPS/UnituCurse
 C:/Users/Савка/MPFPS/UnituCurse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Савка/MPFPS/UnituCurse
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13244] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 608411582 [EditorId] 608411582 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O33IFGH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13340] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 594587334 [EditorId] 594587334 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O33IFGH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13244] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 608411582 [EditorId] 608411582 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O33IFGH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13340] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 594587334 [EditorId] 594587334 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O33IFGH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 28.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 24.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path D:/креатор/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -71,47 +71,47 @@ Initialize mono
 Mono path[0] = 'D:/креатор/2022.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'D:/креатор/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/креатор/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/креатор/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/креатор/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006081 seconds.
-- Loaded All Assemblies, in  0.508 seconds
+Registered in 0.012237 seconds.
+- Loaded All Assemblies, in  0.705 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 301 ms
+Android Extension - Scanning For ADB Devices 599 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.756 seconds
-Domain Reload Profiling: 1263ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  1.193 seconds
+Domain Reload Profiling: 1898ms
+	BeginReloadAssembly (209ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (215ms)
-		LoadAssemblies (153ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (206ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (209ms)
-				TypeCache.ScanAssembly (180ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (284ms)
+				TypeCache.ScanAssembly (262ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (756ms)
+	FinalizeReload (1194ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (670ms)
+		SetupLoadedEditorAssemblies (1084ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (446ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (783ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (148ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +119,8 @@ Domain Reload Profiling: 1263ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.151 seconds
-Refreshing native plugins compatible for Editor in 152.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.783 seconds
+Refreshing native plugins compatible for Editor in 12.56 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -128,48 +128,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.143 seconds
-Domain Reload Profiling: 2291ms
-	BeginReloadAssembly (206ms)
+- Finished resetting the current domain, in  1.416 seconds
+Domain Reload Profiling: 3196ms
+	BeginReloadAssembly (328ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (820ms)
-		LoadAssemblies (555ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1267ms)
+		LoadAssemblies (958ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (387ms)
-			TypeCache.Refresh (329ms)
-				TypeCache.ScanAssembly (304ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1143ms)
+		AnalyzeDomain (527ms)
+			TypeCache.Refresh (445ms)
+				TypeCache.ScanAssembly (410ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (860ms)
+		SetupLoadedEditorAssemblies (1060ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (612ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (740ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 9.27 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 18.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5812 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 111 unused Assets / (0.8 MB). Loaded Objects now: 6249.
-Memory consumption went from 217.4 MB to 216.5 MB.
-Total: 5.206200 ms (FindLiveObjects: 0.518100 ms CreateObjectMapping: 0.259600 ms MarkObjects: 3.915100 ms  DeleteObjects: 0.511400 ms)
+Unloading 111 unused Assets / (0.8 MB). Loaded Objects now: 6250.
+Memory consumption went from 217.3 MB to 216.5 MB.
+Total: 8.466500 ms (FindLiveObjects: 0.950100 ms CreateObjectMapping: 0.557400 ms MarkObjects: 6.218100 ms  DeleteObjects: 0.738500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,290 +186,90 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9544.242233 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials
-  artifactKey: Guid(5dd0ab171fa873f49af4e44f65d97d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials using Guid(5dd0ab171fa873f49af4e44f65d97d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02842da748ac42f22d7ac67fb60542b') in 0.003697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.036284 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs
-  artifactKey: Guid(2db27146764ff844aa1e335ac9a938ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs using Guid(2db27146764ff844aa1e335ac9a938ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4f3b0d1ee6eab0396c7283113970d7') in 0.000605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.029458 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PTK_Tunnel.prefab
-  artifactKey: Guid(fec82ffc1d9b9a54b9d7815dc89c9b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PTK_Tunnel.prefab using Guid(fec82ffc1d9b9a54b9d7815dc89c9b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cb042f542434582c57ea48505a3687') in 0.040882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 10.833686 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes
-  artifactKey: Guid(08a3d49dc888085498f15f1237b658d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes using Guid(08a3d49dc888085498f15f1237b658d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7913b819ebe4637d4a4bb321caa18d8') in 0.000596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.036854 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes/PTK_Cube_1.prefab
-  artifactKey: Guid(b471d26a5eac87b4086c90c7c0b76f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes/PTK_Cube_1.prefab using Guid(b471d26a5eac87b4086c90c7c0b76f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14895f62db851fccbe76b425e140ce9') in 0.225399 seconds
+  Time since last request: 6593.520217 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_4.prefab
+  artifactKey: Guid(e4b89a8c642c433459cafbc9259c34a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_4.prefab using Guid(e4b89a8c642c433459cafbc9259c34a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7707579ced905df0bab1c0b31d9c351c') in 0.255160 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 1.893627 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids
-  artifactKey: Guid(ffbd39014ddfd1a439b79dfc998444b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids using Guid(ffbd39014ddfd1a439b79dfc998444b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d56c17439fba7749a5207305699323e') in 0.000650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.049538 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_1.prefab
-  artifactKey: Guid(88ccea9d275542b47a02cf9575d5864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_1.prefab using Guid(88ccea9d275542b47a02cf9575d5864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb73929b1daa75a7537fe1c17269654c') in 0.031943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
+  Time since last request: 0.000047 seconds.
   path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_5.prefab
   artifactKey: Guid(db58b1eda8133c84983d20108c13888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_5.prefab using Guid(db58b1eda8133c84983d20108c13888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3932a26bdd945ffb6ea7e7e7683101a1') in 0.022346 seconds
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_5.prefab using Guid(db58b1eda8133c84983d20108c13888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5690361a16f17ea93f37f50ce6cbfbd1') in 0.015708 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 1.505838 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns
-  artifactKey: Guid(5909a1b5076cf314d939239eb25c9779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns using Guid(5909a1b5076cf314d939239eb25c9779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fda004a5c72176fc25df53e51435427') in 0.000717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.057344 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Large.prefab
-  artifactKey: Guid(83f5d0749a6f6724fa31905af7db0670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Large.prefab using Guid(83f5d0749a6f6724fa31905af7db0670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e602720a58cc8ade31c7c799a8da6c') in 0.009863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Medium.prefab
-  artifactKey: Guid(fef78b03d45010a47bf4d11bd5dd5dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Medium.prefab using Guid(fef78b03d45010a47bf4d11bd5dd5dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f08883f8db06997abf63f23236dd576') in 0.163063 seconds
+  Time since last request: 362.443806 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes/PTK_Cube_1.prefab
+  artifactKey: Guid(b471d26a5eac87b4086c90c7c0b76f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes/PTK_Cube_1.prefab using Guid(b471d26a5eac87b4086c90c7c0b76f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefe3ea0df20444663c1e5eb7d3dd964') in 0.012215 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 1.738469 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables
-  artifactKey: Guid(4d7bf909c7db610449591ae8dedc24e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables using Guid(4d7bf909c7db610449591ae8dedc24e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce4b4e38c6d752d5a2f95b83d2d76b') in 0.000674 seconds
+  Time since last request: 76.298720 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Large_1.prefab
+  artifactKey: Guid(e489c3f82f8fc2d4b8c0ed48d3fe0201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Large_1.prefab using Guid(e489c3f82f8fc2d4b8c0ed48d3fe0201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cb35873e72555339030da93062e6c1') in 0.015579 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.041577 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_blue.prefab
-  artifactKey: Guid(1f5d98c5ba034a846bb35ff27e18823c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_blue.prefab using Guid(1f5d98c5ba034a846bb35ff27e18823c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62acbc6149f43d4910c0d626d5fbc26') in 0.196735 seconds
+  Time since last request: 0.011267 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Large_4.prefab
+  artifactKey: Guid(5c7fef875560f1b4d9477f8f7c564122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Large_4.prefab using Guid(5c7fef875560f1b4d9477f8f7c564122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f3e253be4688abc31a522e977d738d') in 0.013980 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Medium_5.prefab
+  artifactKey: Guid(a3e1060ae1e257742aa7ada82885a11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Medium_5.prefab using Guid(a3e1060ae1e257742aa7ada82885a11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ffff67df091e96882ecca932e7f7e7') in 0.066491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Large_5.prefab
+  artifactKey: Guid(439808be7c64de84395958dac2b6bd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Large_5.prefab using Guid(439808be7c64de84395958dac2b6bd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b2b1608f172325f5b6eeb1a6c039b3') in 0.011132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Medium_4.prefab
+  artifactKey: Guid(2e3c3b7e34bf4984485ee9505d0a2dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Medium_4.prefab using Guid(2e3c3b7e34bf4984485ee9505d0a2dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a5cc6aab3c47c3976800f8079358f4') in 0.047577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_2_green.prefab
-  artifactKey: Guid(33512a55346f56e4090c2acdc8fe4d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_2_green.prefab using Guid(33512a55346f56e4090c2acdc8fe4d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74960dc7c907b08f9eeee9e38db14332') in 0.007946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.239035 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges
-  artifactKey: Guid(41a3be45123fd274399b102e8135640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges using Guid(41a3be45123fd274399b102e8135640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8429968d86723a1fe0ebe4925b4bbc0a') in 0.000626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.029465 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges/PTK_Bridge_Large.prefab
-  artifactKey: Guid(a128392620f2b0e4c940a2391ed8da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges/PTK_Bridge_Large.prefab using Guid(a128392620f2b0e4c940a2391ed8da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc39a9270a10ba35fffd3d3cb0c098f8') in 0.032381 seconds
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Small_2.prefab
+  artifactKey: Guid(4d69a879bf68dfb4ebd303efd0d34a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Small_2.prefab using Guid(4d69a879bf68dfb4ebd303efd0d34a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cced1744c5662bfc721299bee35aac9') in 0.017318 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 4.300000 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors
-  artifactKey: Guid(29047c35d80000d4ebb92249a0d995fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors using Guid(29047c35d80000d4ebb92249a0d995fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2658222375445610b45d9e1c367d729c') in 0.000699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.043196 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Door_Medium.prefab
-  artifactKey: Guid(e00b871ebd4829a4b88fadc53d16e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Door_Medium.prefab using Guid(e00b871ebd4829a4b88fadc53d16e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffac2ebaab575f05515256eefaf8ae42') in 0.115658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000592 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_SlidingDoor_Large.prefab
-  artifactKey: Guid(4ebc420b94c1c9f469d3c2e96b6fde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_SlidingDoor_Large.prefab using Guid(4ebc420b94c1c9f469d3c2e96b6fde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501ea782ea4a01a2dc7cb416c6db243f') in 0.030967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_SlidingDoor_Medium.prefab
-  artifactKey: Guid(ac779bc565776984f9a36525fed5d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_SlidingDoor_Medium.prefab using Guid(ac779bc565776984f9a36525fed5d192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c652e7e65876dc8736028e2da254c45e') in 0.014468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 1.199172 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders
-  artifactKey: Guid(1eb879d2adf7c8649983f4908bec0159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders using Guid(1eb879d2adf7c8649983f4908bec0159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3bceb634444480a2796d02c5fa625e') in 0.000872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.053317 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders/PTK_Ladder_Large.prefab
-  artifactKey: Guid(6ee0bd1490e6fb2419babfdc9edf1855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders/PTK_Ladder_Large.prefab using Guid(6ee0bd1490e6fb2419babfdc9edf1855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a5cb90604380e56b33868c92202d99') in 0.021580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.034800 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Lamps
-  artifactKey: Guid(ddd703ca6dc59a946a2509027331e9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Lamps using Guid(ddd703ca6dc59a946a2509027331e9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b092cb605c6caa829e2c9263f289cd') in 0.000658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.037160 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Lamps/PTK_Lamp.prefab
-  artifactKey: Guid(5ccb7635a0b4e9c408b824b36c335674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Lamps/PTK_Lamp.prefab using Guid(5ccb7635a0b4e9c408b824b36c335674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723852db5a7ec8ad5f6bdcd7e472b696') in 0.077672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 1.924494 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest
-  artifactKey: Guid(12e4357030fa28c4b8c345777f5437e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest using Guid(12e4357030fa28c4b8c345777f5437e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3701d5367c2460218281ec1a41c66a9e') in 0.000639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.054301 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_1.prefab
-  artifactKey: Guid(0d9cb6e596c5f75449e5bab7d8e35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_1.prefab using Guid(0d9cb6e596c5f75449e5bab7d8e35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fb3976f09c2f00915f48ba511cbe38') in 0.221787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.174297 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps
-  artifactKey: Guid(5c4d31336c634ad4a8994389ee868e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps using Guid(5c4d31336c634ad4a8994389ee868e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6627b3e49c61f985e4d4196f52d989b7') in 0.000633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.034877 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps/PTK_Ramp_Small.prefab
-  artifactKey: Guid(39aeb83d96ac82246bf5c092137070cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps/PTK_Ramp_Small.prefab using Guid(39aeb83d96ac82246bf5c092137070cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11305ef332ea791c4ae24be0eeddcef1') in 0.032688 seconds
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Small_5.prefab
+  artifactKey: Guid(006d0324cb6356141975387738a2ee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Small_5.prefab using Guid(006d0324cb6356141975387738a2ee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e28c4d9a8c9c449dbf78ed43ea8126') in 0.022652 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 2.372652 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs
-  artifactKey: Guid(7f54f37687af50d4dbc7b407e07f1441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs using Guid(7f54f37687af50d4dbc7b407e07f1441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0899734d555a107c3b5627c3932371d') in 0.000623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.063292 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs/PTK_Stairs_Large.prefab
-  artifactKey: Guid(bcb5c50335d5ead4abea041e6e413ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs/PTK_Stairs_Large.prefab using Guid(bcb5c50335d5ead4abea041e6e413ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfd12aaa60d4a2c3592740b5016daf2') in 0.040467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 3.336019 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls
-  artifactKey: Guid(5dd1fa30c3793c4489c4cae55255db8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls using Guid(5dd1fa30c3793c4489c4cae55255db8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7aa0b34edbbc61cd20a29f80505b68') in 0.000632 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.054860 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_1.prefab
-  artifactKey: Guid(e60b9bdfa5d189e44b91680db5645e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_1.prefab using Guid(e60b9bdfa5d189e44b91680db5645e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8e0ec89b10f81ef119cd89a27440fc') in 0.053471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_2.prefab
-  artifactKey: Guid(1123dde5e341fcd4b8c6e5c6cdd68e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_2.prefab using Guid(1123dde5e341fcd4b8c6e5c6cdd68e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b22ed4346a8168e6afee0879398aca') in 0.082128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_3.prefab
-  artifactKey: Guid(1aa78b0c78b0a3f4a9fb02a89d9befd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_3.prefab using Guid(1aa78b0c78b0a3f4a9fb02a89d9befd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a586c19963de0f498da8b9eb62f6d7') in 0.086619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_5.prefab
-  artifactKey: Guid(f024a2bac71fe964292a9b1796e21d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_5.prefab using Guid(f024a2bac71fe964292a9b1796e21d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c59fa8b0b1f3bae07a983fe2198234') in 0.057825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_5.prefab
-  artifactKey: Guid(c21252cbe01eccd4a967b728d0b09f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_5.prefab using Guid(c21252cbe01eccd4a967b728d0b09f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ace5bd56be002e8aca9747481e8186') in 0.017870 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Medium_2.prefab
+  artifactKey: Guid(65381f126ea222747aa08b44133b17f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls 1/PTK_Wall_Medium_2.prefab using Guid(65381f126ea222747aa08b44133b17f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd323ba4d711731b384c05509a3d131cc') in 0.017454 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

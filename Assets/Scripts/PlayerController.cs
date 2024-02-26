@@ -4,21 +4,21 @@ using Unity.VisualScripting;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviourPunCallbacks
 {
     private Rigidbody _rigidbody;
     private PhotonView _photonView;
     
     [SerializeField] private Transform _camera;
     [SerializeField] private float _cameraSensitivity = 2f;
-    [SerializeField] private float _movementSpeed = 4f;
-    [SerializeField] private float _checkJumpRadius = 0.2f;
-    [SerializeField] private float _jumpForce = 5f;
+    [SerializeField] private float _movementSpeed = 6f;
+    [SerializeField] private float _jumpForce = 7.5f;
 
 
     [SerializeField] Item[] items;
-    [SerializeField] private Transform _handPivot;
+    bool isGrouded = false;
 
 
     private float _rotationX;
@@ -59,24 +59,16 @@ public class PlayerController : MonoBehaviour
         RotateCameraUpDown();
 
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrouded)
         {
             TryJump();
         }
     
-      /*  for (int i = 0; i < items.Length; i++)
-        {
-            if (Input.GetKeyDown((i + 1).ToString()))
-            {
-                EquipItem(i);
-                break;  
-            }
-           
-        }*/
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             EquipItem(0);
         }
+
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             EquipItem(1);
@@ -85,35 +77,16 @@ public class PlayerController : MonoBehaviour
 
     private void TryJump()
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position - Vector3.down * 0.5f, _checkJumpRadius);
-
-        foreach (Collider collider in colliders)
-        {
-            if (collider.gameObject != gameObject)
-                return;
-        }
-
         _rigidbody.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
+    }
+
+    public void SetGroundState(bool _ground)
+    {
+        isGrouded = _ground;
     }
 
     private void EquipItem(int _index)
     {
-        /*if (previousItemIndex == _index)
-        {
-            return;
-        }
-
-        itemIndex = _index;
-        items[_index].gameObject.SetActive(true);
-        
-        
-        if (previousItemIndex != -1)
-        {
-            items[previousItemIndex].gameObject.SetActive(true);
-        }
-        
-        previousItemIndex = itemIndex;*/
-
         for(int i=0; i<items.Length; i++)
         {
             if (i == _index)
@@ -122,6 +95,13 @@ public class PlayerController : MonoBehaviour
             }
             else { items[i].gameObject.SetActive(false); }
         }
+
+     /*   if (_photonView.IsMine)
+        {
+            Hashtable has = new Hashtable();
+            has.Add("items", items);
+            PhotonNetwork.LocalPlayer.SetCustomProperties(has);
+        }*/
     }
     
     private void PlayerMovement()
@@ -149,8 +129,7 @@ public class PlayerController : MonoBehaviour
         // Поворачиваем камеру
         _camera.eulerAngles = new Vector3(_rotationX, _camera.eulerAngles.y, _camera.eulerAngles.z);
 
-        // Поворачиваем HandPivot вместе с телом
-        _handPivot.eulerAngles = new Vector3(_rotationX, _handPivot.eulerAngles.y, _handPivot.eulerAngles.z);
+        
 
     }
 }
