@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
     private PhotonView _photonView;
     
     [SerializeField] private Transform _camera;
+    [SerializeField] private Transform _Holdercamera;
     [SerializeField] private float _cameraSensitivity = 2f;
     [SerializeField] private float _movementSpeed = 6f;
     [SerializeField] private float _jumpForce = 7.5f;
@@ -19,7 +20,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     [SerializeField] Item[] items;
     bool isGrouded = false;
-
 
     private float _rotationX;
 
@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         else
         {
             Destroy(GetComponentInChildren<Camera>().gameObject);
+            Destroy(_Holdercamera.gameObject);
             Destroy(_rigidbody);
         }
        
@@ -67,11 +68,13 @@ public class PlayerController : MonoBehaviourPunCallbacks
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             EquipItem(0);
+
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             EquipItem(1);
+            
         }
     }
 
@@ -95,15 +98,12 @@ public class PlayerController : MonoBehaviourPunCallbacks
             }
             else { items[i].gameObject.SetActive(false); }
         }
-
-     /*   if (_photonView.IsMine)
-        {
-            Hashtable has = new Hashtable();
-            has.Add("items", items);
-            PhotonNetwork.LocalPlayer.SetCustomProperties(has);
-        }*/
     }
-    
+
+ 
+
+
+
     private void PlayerMovement()
     {
         float h = Input.GetAxis("Horizontal");

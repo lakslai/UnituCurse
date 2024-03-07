@@ -18,8 +18,7 @@
         [SerializeField] private Transform _playerList;
         [SerializeField] private GameObject _playerNamePrefab;
         [SerializeField] private GameObject _startGameButton;
-
-
+      
 
 
     void Start()
